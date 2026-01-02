@@ -39,3 +39,11 @@ source install/setup.bash
 
 # 3. Run the node
 ros2 run ros2_hello_world hello_node
+
+#### Expected Output:
+
+```shell
+[INFO] [1700000000.123456789] [hello_world_node]: Hello, World!
+[INFO] [1700000001.123456789] [hello_world_node]: Hello, World!
+...
+```
